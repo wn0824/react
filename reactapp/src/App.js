@@ -1,12 +1,9 @@
 import React from 'react';
 import './App.css';
+import MyComponent from './MyComponent';
 
-function App() {
-  const name = 'react';
-  return <div className="react">
-    {name}
-  </div>;
-    
-}
+const App = () => {
+  return <MyComponent name = "React" favoriteNumber = {3} >World</MyComponent>;
+} 
 
 export default App;
