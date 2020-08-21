@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import MyComponent from './MyComponent';
+// import Counter from './Counter';
+import EventPractice from './EventPratice';
 
 const App = () => {
-  return <MyComponent name = "React" favoriteNumber = {3} >World</MyComponent>;
+  return <EventPractice />;
 } 
 
 export default App;
